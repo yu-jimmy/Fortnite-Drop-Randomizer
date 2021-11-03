@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fortnite Drop Randomizer</string>
+    <string name="map_view" />
+    <string name="randomize_button">GENERATE DROP</string>
+    <string name="drop_label">Where we landing boys?</string>
+    <string name="drop_TextView">Tilted Towers</string>
+    <string name="marker_label" />
+</resources>

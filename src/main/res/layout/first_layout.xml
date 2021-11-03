@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/randomizeButton"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="123dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="415dp"
+        android:text="GENERATE DROP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/randomize_button" />
+
+    <TextView
+        android:id="@+id/dropLabel"
+        android:layout_width="264dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/drop_label"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomizeButton" />
+
+    <TextView
+        android:id="@+id/dropTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="144dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/drop_TextView"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dropLabel" />
+
+</android.support.constraint.ConstraintLayout>

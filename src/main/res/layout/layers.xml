@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/mapView"
+        android:layout_gravity="bottom"
+        android:layout_width="414dp"
+        android:layout_height="414dp"
+        android:src="@drawable/map"
+        />
+
+    <ImageView
+        android:id="@+id/markerView"
+        android:layout_gravity="top"
+        android:layout_width="21dp"
+        android:layout_height="28dp"
+        android:src="@drawable/marker"
+        android:layout_marginLeft="144dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="192dp"
+        />
+
+</FrameLayout>
